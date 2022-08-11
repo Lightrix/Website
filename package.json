@@ -28,8 +28,13 @@
 		"@tailwindcss/typography": "0.5.4",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"astro": "1.0.0",
 		"astro-compress": "0.0.17",
+=======
+		"astro": "1.0.2",
+		"astro-compress": "0.0.18",
+>>>>>>> aeb9a91 (Bumps astro, astro-compress to current latest)
 		"astro-critters": "0.0.11",
 =======
 		"astro": "1.0.0-rc.8",
