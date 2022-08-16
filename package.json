@@ -44,9 +44,13 @@
 >>>>>>> 965a276 (Cleanup)
 =======
 		"astro": "1.0.5",
+<<<<<<< HEAD
 >>>>>>> dedbb9b (Bumps astro to current latest)
 		"astro-compress": "0.0.18",
 >>>>>>> aeb9a91 (Bumps astro, astro-compress to current latest)
+=======
+		"astro-compress": "0.0.19",
+>>>>>>> f11b656 (Cleanup)
 		"astro-critters": "0.0.11",
 =======
 		"astro": "1.0.0-rc.8",
