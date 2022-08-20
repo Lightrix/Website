@@ -68,11 +68,15 @@
 =======
 		"astro": "1.0.6",
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"astro-compress": "1.0.1",
 		"astro-critters": "1.0.0",
 >>>>>>> 8014c36 (Bumps astro, astro-compress, astro-critters to current latest)
 =======
 		"astro-compress": "1.0.2",
+=======
+		"astro-compress": "1.0.3",
+>>>>>>> e0725df (Bumps astro-compress to current latest)
 		"astro-critters": "1.0.1",
 >>>>>>> 5e851dd (Bumps astro-compress, astro-critters to current latest)
 		"autoprefixer": "10.4.8",
