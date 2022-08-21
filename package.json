@@ -69,6 +69,7 @@
 		"astro": "1.0.6",
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"astro-compress": "1.0.1",
 		"astro-critters": "1.0.0",
 >>>>>>> 8014c36 (Bumps astro, astro-compress, astro-critters to current latest)
@@ -79,6 +80,10 @@
 >>>>>>> e0725df (Bumps astro-compress to current latest)
 		"astro-critters": "1.0.1",
 >>>>>>> 5e851dd (Bumps astro-compress, astro-critters to current latest)
+=======
+		"astro-compress": "1.0.4",
+		"astro-critters": "1.0.2",
+>>>>>>> 65ba297 (Bumps astro-compress, astro-critters to current latest)
 		"autoprefixer": "10.4.8",
 		"cssnano": "5.1.13",
 		"cssnano-preset-advanced": "5.3.8",
