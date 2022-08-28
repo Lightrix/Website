@@ -103,6 +103,7 @@
 >>>>>>> 93a4102 (Bumps astro to current latest)
 =======
 		"astro": "1.1.1",
+<<<<<<< HEAD
 >>>>>>> 494a744 (Bumps astro to current latest)
 		"astro-compress": "1.0.5",
 <<<<<<< HEAD
@@ -110,6 +111,9 @@
 		"astro-critters": "1.0.2",
 >>>>>>> 65ba297 (Bumps astro-compress, astro-critters to current latest)
 =======
+=======
+		"astro-compress": "1.0.6",
+>>>>>>> 5db61b6 (Bumps astro-compress to current latest)
 		"astro-critters": "1.0.3",
 >>>>>>> d058d6e (Bumps astro-critters to current latest)
 		"autoprefixer": "10.4.8",
