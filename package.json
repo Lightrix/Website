@@ -40,6 +40,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 		"astro": "1.0.0",
 		"astro-compress": "0.0.17",
 =======
@@ -114,6 +115,9 @@
 >>>>>>> 65ba297 (Bumps astro-compress, astro-critters to current latest)
 =======
 =======
+=======
+		"astro": "1.1.2",
+>>>>>>> a0561c2 (Bump astro from 1.1.1 to 1.1.2)
 		"astro-compress": "1.0.6",
 >>>>>>> 5db61b6 (Bumps astro-compress to current latest)
 		"astro-critters": "1.0.3",
