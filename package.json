@@ -139,6 +139,7 @@
 >>>>>>> 4ac441a (Bump astro from 1.1.2 to 1.1.3)
 =======
 		"astro": "1.1.5",
+<<<<<<< HEAD
 >>>>>>> 87d2011 (Cleanup)
 		"astro-compress": "1.0.6",
 >>>>>>> 5db61b6 (Bumps astro-compress to current latest)
@@ -146,6 +147,9 @@
 		"astro": "1.1.6",
 		"astro-compress": "1.0.7",
 >>>>>>> c3234be (Cleanup)
+=======
+		"astro-compress": "1.0.7",
+>>>>>>> 576ec75 (Bump astro-compress from 1.0.6 to 1.0.7)
 		"astro-critters": "1.0.3",
 >>>>>>> d058d6e (Bumps astro-critters to current latest)
 		"autoprefixer": "10.4.8",
