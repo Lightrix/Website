@@ -1,5 +1,5 @@
-# [blank-web-starter] 📄
+# [lightrix.web] 💡
 
-Starter template for AstroJS.
+Lightrix.web main website.
 
-[blank-web-starter]: https://npmjs.org/blank-web-starter
+[lightrix.web]: https://lightrix.web
