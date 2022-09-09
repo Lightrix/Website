@@ -151,6 +151,7 @@
 >>>>>>> 9e743ee (Bump astro from 1.1.6 to 1.1.7)
 		"astro-compress": "1.0.7",
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> c3234be (Cleanup)
 =======
 		"astro-compress": "1.0.7",
@@ -160,6 +161,9 @@
 =======
 		"astro-critters": "1.0.4",
 >>>>>>> f522479 (Cleanup)
+=======
+		"astro-critters": "1.0.3",
+>>>>>>> 86e974a (Cleanup)
 		"autoprefixer": "10.4.8",
 		"cssnano": "5.1.13",
 		"cssnano-preset-advanced": "5.3.8",
