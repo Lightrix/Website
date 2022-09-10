@@ -135,6 +135,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> ce60fe0 (Bumps @tailwindcss/aspect-ratio, @tailwindcss/forms, @tailwindcss/line-clamp, @tailwindcss/typography, firebase to current latest)
 		"astro": "1.1.3",
 >>>>>>> 4ac441a (Bump astro from 1.1.2 to 1.1.3)
@@ -149,6 +150,9 @@
 =======
 		"astro": "1.1.7",
 >>>>>>> 9e743ee (Bump astro from 1.1.6 to 1.1.7)
+=======
+		"astro": "1.2.1",
+>>>>>>> 9805c63 (Cleanup)
 		"astro-compress": "1.0.7",
 <<<<<<< HEAD
 <<<<<<< HEAD
