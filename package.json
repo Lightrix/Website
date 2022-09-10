@@ -1,14 +1,14 @@
 {
-	"name": "lightrix-web",
-	"version": "0.0.4",
+	"name": "astro-starter-template",
+	"version": "0.0.1",
 	"description": "📄 Starter template for AstroJS.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/lightrix/lightrix.dev.git"
+		"url": "https://github.com/lightrix/astro-starter-template.git"
 	},
-	"homepage": "https://github.com/lightrix/lightrix.dev#readme",
+	"homepage": "https://github.com/lightrix/astro-starter-template#readme",
 	"bugs": {
-		"url": "https://github.com/lightrix/lightrix.dev/issues"
+		"url": "https://github.com/lightrix/astro-starter-template/issues"
 	},
 	"author": "lightrix",
 	"license": "MIT",
@@ -18,160 +18,15 @@
 	},
 	"devDependencies": {
 		"@astrojs/sitemap": "1.0.0",
-<<<<<<< HEAD
-<<<<<<< HEAD
-		"@playform/config": "0.0.3",
-		"@playform/scripts": "0.0.5",
-<<<<<<< HEAD
-		"@tailwindcss/aspect-ratio": "0.4.0",
-		"@tailwindcss/forms": "0.5.2",
-		"@tailwindcss/line-clamp": "0.4.0",
-		"@tailwindcss/typography": "0.5.4",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-		"astro": "1.0.0",
-		"astro-compress": "0.0.17",
-=======
-		"astro": "1.0.2",
-=======
-		"astro": "1.0.3",
->>>>>>> 5f373a6 (Bump astro from 1.0.2 to 1.0.3)
-=======
-		"astro": "1.0.4",
->>>>>>> 965a276 (Cleanup)
-=======
-		"astro": "1.0.5",
-<<<<<<< HEAD
->>>>>>> dedbb9b (Bumps astro to current latest)
-		"astro-compress": "0.0.18",
->>>>>>> aeb9a91 (Bumps astro, astro-compress to current latest)
-=======
-		"astro-compress": "0.0.19",
->>>>>>> f11b656 (Cleanup)
-		"astro-critters": "0.0.11",
-=======
-		"astro": "1.0.0-rc.8",
-=======
-		"astro": "1.0.1",
->>>>>>> 8e3598d (Bump astro from 1.0.0-rc.8 to 1.0.1)
-		"astro-compress": "0.0.17",
-<<<<<<< HEAD
-		"astro-critters": "0.0.10",
->>>>>>> db28a75 (Bump astro-compress from 0.0.16 to 0.0.17)
-=======
-		"astro-critters": "0.0.11",
->>>>>>> 305ede3 (Bump astro-critters from 0.0.10 to 0.0.11)
-=======
-		"astro": "1.0.6",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-		"astro-compress": "1.0.1",
-		"astro-critters": "1.0.0",
->>>>>>> 8014c36 (Bumps astro, astro-compress, astro-critters to current latest)
-=======
-		"astro-compress": "1.0.2",
-=======
-		"astro-compress": "1.0.3",
->>>>>>> e0725df (Bumps astro-compress to current latest)
-		"astro-critters": "1.0.1",
->>>>>>> 5e851dd (Bumps astro-compress, astro-critters to current latest)
-=======
-=======
-		"astro": "1.0.7",
-<<<<<<< HEAD
->>>>>>> a739264 (Bumps astro to current latest)
-		"astro-compress": "1.0.4",
-=======
-=======
-		"astro": "1.0.8",
->>>>>>> 71f0c2c (Bump astro from 1.0.7 to 1.0.8)
-=======
-		"astro": "1.0.9",
->>>>>>> d360e94 (Bump astro from 1.0.8 to 1.0.9)
-=======
-		"astro": "1.1.0",
->>>>>>> 93a4102 (Bumps astro to current latest)
-=======
-		"astro": "1.1.1",
-<<<<<<< HEAD
->>>>>>> 494a744 (Bumps astro to current latest)
-		"astro-compress": "1.0.5",
-<<<<<<< HEAD
->>>>>>> 9b6f6a1 (Bump astro-compress from 1.0.4 to 1.0.5)
-		"astro-critters": "1.0.2",
->>>>>>> 65ba297 (Bumps astro-compress, astro-critters to current latest)
-=======
-=======
-=======
-		"astro": "1.1.2",
->>>>>>> a0561c2 (Bump astro from 1.1.1 to 1.1.2)
-=======
-=======
-=======
-		"@nikolarhristov/config": "0.0.3",
-		"@nikolarhristov/scripts": "0.0.5",
->>>>>>> 701e0dc (Cleanup)
-=======
 		"@nikolarhristov/config": "0.0.1",
 		"@nikolarhristov/scripts": "0.0.1",
->>>>>>> a89b0b0 (Cleanup)
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.3",
 		"@tailwindcss/line-clamp": "0.4.2",
 		"@tailwindcss/typography": "0.5.7",
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> ce60fe0 (Bumps @tailwindcss/aspect-ratio, @tailwindcss/forms, @tailwindcss/line-clamp, @tailwindcss/typography, firebase to current latest)
-		"astro": "1.1.3",
->>>>>>> 4ac441a (Bump astro from 1.1.2 to 1.1.3)
-=======
-		"astro": "1.1.5",
-<<<<<<< HEAD
->>>>>>> 87d2011 (Cleanup)
-		"astro-compress": "1.0.6",
->>>>>>> 5db61b6 (Bumps astro-compress to current latest)
-=======
-		"astro": "1.1.6",
-=======
-		"astro": "1.1.7",
->>>>>>> 9e743ee (Bump astro from 1.1.6 to 1.1.7)
-=======
 		"astro": "1.2.1",
->>>>>>> 9805c63 (Cleanup)
-=======
-		"astro": "1.2.1",
->>>>>>> 66c47cb (Bump astro from 1.1.7 to 1.2.1)
 		"astro-compress": "1.0.7",
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> c3234be (Cleanup)
-=======
-		"astro-compress": "1.0.7",
->>>>>>> 576ec75 (Bump astro-compress from 1.0.6 to 1.0.7)
 		"astro-critters": "1.0.3",
->>>>>>> d058d6e (Bumps astro-critters to current latest)
-=======
-		"astro-critters": "1.0.4",
->>>>>>> f522479 (Cleanup)
-=======
-		"astro-critters": "1.0.3",
->>>>>>> 86e974a (Cleanup)
 		"autoprefixer": "10.4.8",
 		"cssnano": "5.1.13",
 		"cssnano-preset-advanced": "5.3.8",

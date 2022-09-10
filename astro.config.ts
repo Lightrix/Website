@@ -9,6 +9,7 @@ export default (): AstroUserConfig => ({
 		sitemap(),
 		critters(),
 		compress({
+			html: true,
 			logger: 1,
 		}),
 	],
