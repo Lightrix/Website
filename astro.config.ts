@@ -1,10 +1,9 @@
-import type { AstroUserConfig } from "astro";
 import compress from "astro-compress";
 import critters from "astro-critters";
 
 import sitemap from "@astrojs/sitemap";
 
-export default (): AstroUserConfig => ({
+export default {
 	integrations: [
 		sitemap(),
 		critters(),
@@ -12,4 +11,4 @@ export default (): AstroUserConfig => ({
 			logger: 1,
 		}),
 	],
-});
+}
