@@ -2,7 +2,6 @@
 	"name": "lightrix-web",
 	"version": "0.0.1",
 	"description": "📄 Starter template for AstroJS.",
-	"license": "MIT",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Lightrix/lightrix.dev.git"
@@ -11,6 +10,7 @@
 	"bugs": {
 		"url": "https://github.com/Lightrix/lightrix.dev/issues"
 	},
+	"license": "MIT",
 	"private": true,
 	"scripts": {
 		"build": "astro check && astro build",
