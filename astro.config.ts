@@ -7,5 +7,5 @@ import rome from "astro-rome";
 import prefetch from "@astrojs/prefetch";
 
 export default defineConfig({
-	integrations: [sitemap(), critters(), prefetch(), rome(), compress()],
+	integrations: [sitemap(), critters({ logger: 1 }), prefetch(), rome({ logger: 1 }), compress({ logger: 1 })],
 });
