@@ -1,5 +1,5 @@
-# [astro-starter-template] 📄
+# [lightrix.help] 🔦
 
-Starter template for AstroJS.
+Lightrix.help main website.
 
-[astro-starter-template]: https://npmjs.org/astro-starter-template
+[lightrix.help]: https://lightrix.help
