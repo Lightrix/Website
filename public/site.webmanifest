@@ -1,8 +1,8 @@
 {
-	"background_color": "",
-	"theme_color": "",
-	"name": "",
-	"short_name": "",
+	"background_color": "#FF2323",
+	"theme_color": "#FF2323",
+	"name": "Lightrix",
+	"short_name": "lightrix",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"categories": [],
