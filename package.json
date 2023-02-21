@@ -4,11 +4,11 @@
 	"description": "📄 Starter template for AstroJS.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/Lightrix/lightrix.dev.git"
+		"url": "https://github.com/Lightrix/lightrix.help.git"
 	},
-	"homepage": "https://github.com/Lightrix/lightrix.dev#readme",
+	"homepage": "https://github.com/Lightrix/lightrix.help#readme",
 	"bugs": {
-		"url": "https://github.com/Lightrix/lightrix.dev/issues"
+		"url": "https://github.com/Lightrix/lightrix.help/issues"
 	},
 	"license": "MIT",
 	"private": true,
