@@ -10,14 +10,7 @@ const tabindex = Astro.url.pathname === "/" ? "-1" : "";
 			class="flex content-center items-center justify-center"
 			tabindex={tabindex}>
 			<picture>
-				<source
-					srcset="/img/logo.png, /img/logo@2x.png 2x"
-					media="(prefers-color-scheme: light)"
-				/>
-				<source
-					srcset="/img/logo_dark.png, /img/logo_dark@2x.png 2x"
-					media="(prefers-color-scheme: dark)"
-				/>
+				<source srcset="/img/logo.png, /img/logo@2x.png 2x" />
 				<img
 					width="28"
 					src="/img/logo.png"
