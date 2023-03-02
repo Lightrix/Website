@@ -31,27 +31,23 @@
 			outline-offset-0
 			transition-all
 			duration-150
-			hover:outline-blue-600
+			hover:outline-black
 			focus:shadow-xl
-			focus:shadow-blue-500/50
+			focus:shadow-white/50
 			focus:outline-1
 			focus:outline-offset-0
-			focus:outline-blue-600
-			focus:ring-blue-500
-			dark:outline-black;
+			focus:outline-white
+			focus:ring-white;
 	}
 
 	input {
-		@apply w-96
+		@apply bg-lightrix
+			w-96
 			rounded-xl
-			bg-white
 			px-4
 			py-3
-			placeholder-gray-500
-			outline-gray-400
-			dark:bg-black
-			dark:placeholder-gray-500
-			dark:outline-gray-700
+			placeholder-white
+			outline-white
 			sm:max-w-xs;
 		max-width: 92vw;
 	}
@@ -61,16 +57,14 @@
 			mt-6
 			select-none
 			rounded-xl
-			bg-black
+			bg-white
 			py-3
 			px-6
-			text-white
+			text-black
 			outline-white
 			hover:shadow-xl
-			hover:shadow-blue-500/50
-			hover:ring-blue-500
-			dark:bg-white
-			dark:text-black
+			hover:shadow-white/50
+			hover:ring-white
 			sm:ml-4
 			sm:mt-0
 			sm:h-auto
@@ -95,25 +89,11 @@
 			line-height: 1.3rem;
 			margin-left: calc(3.3rem / 4);
 			z-index: 10;
-			text-shadow: 1px 0 1px theme("colors.yellow.400"),
-				0 0px 4px theme("colors.red.400"),
-				0 1px 1px theme("colors.violet.400");
 
-			@media (prefers-color-scheme: dark) {
-				& {
-					text-shadow: none;
+			background: white;
 
-					background: linear-gradient(
-						225deg,
-						theme("colors.green.400"),
-						theme("colors.cyan.400"),
-						theme("colors.blue.400")
-					);
-
-					-webkit-background-clip: text;
-					-webkit-text-fill-color: transparent;
-				}
-			}
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
 
 			+ * {
 				z-index: 9 !important;

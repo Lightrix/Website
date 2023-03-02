@@ -12,7 +12,7 @@
 	a,
 	.underline {
 		text-underline-position: under;
-		--text-shadow-color: white;
+		--text-shadow-color: black;
 		text-shadow: -1px 1px var(--text-shadow-color),
 			-1px 2px var(--text-shadow-color), -2px 1px var(--text-shadow-color),
 			-2px 2px var(--text-shadow-color), -3px 1px var(--text-shadow-color),
@@ -36,13 +36,6 @@
 			focus-visible:decoration-transparent
 			focus-visible:outline-4
 			focus-visible:outline-red-500;
-	}
-
-	@media (prefers-color-scheme: dark) {
-		a,
-		.underline {
-			--text-shadow-color: black;
-		}
 	}
 
 	ul + h1 {

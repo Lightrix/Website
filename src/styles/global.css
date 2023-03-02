@@ -8,13 +8,13 @@ body {
 }
 
 body {
-	@apply flex
+	@apply bg-lightrix
+		text-lightrix
+		flex
 		flex-grow
 		flex-col
-		text-lightrix
+		text-white
 		antialiased
-		dark:bg-lightrix
-		dark:text-white
 		sm:subpixel-antialiased;
 	font-variant-numeric: tabular-nums;
 	font-variant-ligatures: no-common-ligatures;
@@ -23,16 +23,8 @@ body {
 *::selection,
 ::selection {
 	text-shadow: none;
-	@apply bg-amber-400
-		text-black;
-}
-
-@media (prefers-color-scheme: dark) {
-	*::selection,
-	::selection {
-		@apply bg-white
-			text-amber-400;
-	}
+	@apply bg-white
+		text-lightrix;
 }
 
 img {
