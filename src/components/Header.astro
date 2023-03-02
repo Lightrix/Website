@@ -1,0 +1,34 @@
+---
+const tabindex = Astro.url.pathname === "/" ? "-1" : "";
+---
+
+<header class="header">
+	<div class="container flex justify-around">
+		<a
+			href="/"
+			title="Lightrix"
+			class="flex content-center items-center justify-center"
+			tabindex={tabindex}>
+			<picture>
+				<source
+					srcset="/img/logo.png, /img/logo@2x.png 2x"
+					media="(prefers-color-scheme: light)"
+				/>
+				<source
+					srcset="/img/logo_dark.png, /img/logo_dark@2x.png 2x"
+					media="(prefers-color-scheme: dark)"
+				/>
+				<img
+					width="28"
+					src="/img/logo.png"
+					alt="Lightrix logo"
+					loading="lazy"
+				/>
+			</picture>
+		</a>
+	</div>
+</header>
+
+<style is:global>
+	@import "../styles/components/header.css";
+</style>

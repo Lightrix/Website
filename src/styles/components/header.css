@@ -1,0 +1,21 @@
+.header {
+	div {
+		@apply px-5
+			py-14;
+	}
+
+	a {
+		padding: 2px;
+		width: 34px;
+		height: 34px;
+		@apply ease-apple
+			m-1
+			rounded-full
+			outline-none
+			outline-offset-8
+			transition-all
+			duration-150
+			focus-visible:outline-4
+			focus-visible:outline-green-500;
+	}
+}

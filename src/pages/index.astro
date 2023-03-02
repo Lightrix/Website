@@ -1,5 +1,71 @@
 ---
 import Base from "@layouts/Base.astro";
+
+import "../styles/pages/index.css";
 ---
 
-<Base />
+<Base
+	fonts={[
+		{ href: "/fonts/100.css" },
+		{ href: "/fonts/300.css" },
+		{ href: "/fonts/500.css" },
+	]}>
+	<div class="flex flex-col">
+		<main class="justify-center flex grow">
+			<div class="flex grow self-center">
+				<div class="container sm:pb-36">
+					<form
+						action="https://cloud.us10.list-manage.com/subscribe/post?u=e3a8300832b050c9303866326&id=96c1af221f"
+						method="post"
+						name="mc-embedded-subscribe-form"
+						novalidate
+						target="_blank"
+						class="form">
+						<div class="text-center">
+							<h1>
+								Encouraging &nbsp;<br
+									class="sm:hidden"
+								/>Open-Source
+							</h1>
+							<h2>Get notified when we launch!</h2>
+							<div
+								class="input-group flex flex-col items-center justify-center sm:flex-row">
+								<div class="input-group-item flex">
+									<label
+										title="Lightrix <hello@lightrix.help>"
+										aria-label="Lightrix <hello@lightrix.help>"
+										class="at"
+										for="mce-EMAIL"
+										>@
+									</label>
+									<input
+										id="mce-EMAIL"
+										name="EMAIL"
+										placeholder="E-mail"
+										required
+										type="email"
+										value=""
+										aria-label="E-mail subscribe"
+									/>
+								</div>
+								<button type="submit" name="subscribe">
+									Subscribe
+								</button>
+							</div>
+						</div>
+						<div
+							style="position: absolute; left: -5000px"
+							aria-hidden="true">
+							<input
+								type="text"
+								name="b_e3a8300832b050c9303866326_96c1af221f"
+								tabindex="-1"
+								value=""
+							/>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+	</div>
+</Base>

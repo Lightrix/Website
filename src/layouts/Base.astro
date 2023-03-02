@@ -1,8 +1,25 @@
 ---
+import Footer from "@components/Footer.astro";
+import Header from "@components/Header.astro";
+
 import "../styles/base.css";
 
-const { title = "Lightrix", description = "Encouraging Open-Source" } =
-	Astro.props;
+const {
+	fonts = [],
+	title = "Lightrix",
+	description = "Encouraging Open-Source",
+} = Astro.props;
+
+const links = (hrefs = []) =>
+	hrefs
+		.map(
+			(href) => `<link
+			rel="stylesheet"
+			type="text/css"
+			href="${href}"
+		/>`
+		)
+		.join("\n");
 ---
 
 <!DOCTYPE html>
@@ -18,7 +35,11 @@ const { title = "Lightrix", description = "Encouraging Open-Source" } =
 		<meta charset="utf-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
-		<meta name="theme-color" content="#FF2323" />
+		<meta name="theme-color" content="#4d4d4d" />
+		<meta name="apple-mobile-web-app-capable" content="no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta name="msapplication-TileColor" content="#4d4d4d" />
+		<meta name="msapplication-config" content="/browserconfig.xml" />
 		<meta name="format-detection" content="telephone=no" />
 		<meta name="twitter:dnt" content="on" />
 
@@ -34,17 +55,114 @@ const { title = "Lightrix", description = "Encouraging Open-Source" } =
 			href="/site.webmanifest"
 			crossorigin="use-credentials"
 		/>
+		<link rel="stylesheet" type="text/css" href="/fonts/400.css" />
+		<link rel="stylesheet" type="text/css" href="/fonts/500.css" />
 
 		<style is:global>
 			@import "../styles/global.css";
 		</style>
 
+		<slot name="stylesheets" />
+
+		<Fragment set:html={links(fonts.map((font: any) => font.href))} />
+
+		<script>
+			import "./../scripts/swup.js";
+		</script>
+
+		<slot name="scripts" />
+
 		<!-- Favicon -->
+		<link
+			rel="apple-touch-icon"
+			sizes="114x114"
+			href="/img/favicon/apple-touch-icon-114x114.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="120x120"
+			href="/img/favicon/apple-touch-icon-120x120.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="144x144"
+			href="/img/favicon/apple-touch-icon-144x144.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="152x152"
+			href="/img/favicon/apple-touch-icon-152x152.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="/img/favicon/apple-touch-icon-180x180.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="57x57"
+			href="/img/favicon/apple-touch-icon-57x57.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="60x60"
+			href="/img/favicon/apple-touch-icon-60x60.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="72x72"
+			href="/img/favicon/apple-touch-icon-72x72.png"
+		/>
+		<link
+			rel="apple-touch-icon"
+			sizes="76x76"
+			href="/img/favicon/apple-touch-icon-76x76.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="/img/favicon/favicon-16x16.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="192x192"
+			href="/img/favicon/android-chrome-192x192.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="194x194"
+			href="/img/favicon/favicon-194x194.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="/img/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="mask-icon"
+			href="/img/favicon/safari-pinned-tab.svg"
+			color="#4d4d4d"
+		/>
+		<link rel="shortcut icon" href="/favicon.ico" />
+		<meta
+			name="msapplication-TileImage"
+			content="/img/favicon/mstile-144x144.png"
+		/>
 	</head>
 	<body>
-		<div id="lightrix-web">
-			<div class="grow">
+		<div id="lightrix-web" class="flex grow flex-col">
+			<div id="header" class="grow">
+				<Header />
+			</div>
+			<div id="main" class="grow">
 				<slot />
+			</div>
+			<div id="footer" class="shrink">
+				<Footer />
 			</div>
 			<script>
 				import "@scripts/firebase";

@@ -1,0 +1,18 @@
+/* albert-sans-600 - latin */
+@font-face {
+	font-family: "Albert Sans";
+	font-style: normal;
+	font-weight: 600;
+	src: url("/fonts/albert-sans-v1-latin-600.eot"); /* IE9 Compat Modes */
+	src: local(""),
+		url("/fonts/albert-sans-v1-latin-600.eot?#iefix")
+			format("embedded-opentype"),
+		/* IE6-IE8 */ url("/fonts/albert-sans-v1-latin-600.woff2")
+			format("woff2"),
+		/* Super Modern Browsers */ url("/fonts/albert-sans-v1-latin-600.woff")
+			format("woff"),
+		/* Modern Browsers */ url("/fonts/albert-sans-v1-latin-600.ttf")
+			format("truetype"),
+		/* Safari, Android, iOS */
+			url("/fonts/albert-sans-v1-latin-600.svg#AlbertSans") format("svg"); /* Legacy iOS */
+}
