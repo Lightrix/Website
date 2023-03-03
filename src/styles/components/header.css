@@ -16,6 +16,6 @@
 			transition-all
 			duration-150
 			focus-visible:outline-4
-			focus-visible:outline-green-500;
+			focus-visible:outline-white;
 	}
 }
