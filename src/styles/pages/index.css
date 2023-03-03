@@ -31,7 +31,7 @@
 			outline-offset-0
 			transition-all
 			duration-150
-			hover:outline-black
+			hover:outline-black/50
 			focus:shadow-xl
 			focus:shadow-white/50
 			focus:outline-1
