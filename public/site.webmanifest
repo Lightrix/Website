@@ -63,5 +63,5 @@
 	"display": "minimal-ui",
 	"start_url": "/",
 	"categories": ["business", "productivity"],
-	"orientation": "portrait-primary"
+	"orientation": "landscape"
 }
