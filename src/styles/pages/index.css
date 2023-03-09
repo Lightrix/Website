@@ -1,4 +1,12 @@
 .form {
+	@apply flex-grow
+		rounded-2xl
+		bg-white
+		py-36
+		text-black
+		dark:bg-black/80
+		dark:text-white;
+
 	h1 {
 		@apply mb-8
 			text-3xl
@@ -23,6 +31,11 @@
 	button {
 		@apply ease-apple
 			focus:ring-5
+			hover:outline-lightrix-600
+			focus:shadow-lightrix-500/50
+			focus:outline-lightrix-600
+			focus:ring-lightrix-500
+			dark:focus:ring-lightrix-800
 			block
 			w-full
 			border-none
@@ -32,40 +45,42 @@
 			outline-offset-0
 			transition-all
 			duration-150
-			hover:outline-black/50
 			focus:shadow-xl
-			focus:shadow-white/50
 			focus:outline-1
-			focus:outline-offset-0
-			focus:outline-white
-			focus:ring-white;
+			focus:outline-offset-0;
 	}
 
 	input {
-		@apply bg-lightrix
-			w-96
+		@apply w-96
 			rounded-xl
+			bg-white
 			px-4
 			py-3
-			placeholder-white
-			outline-white
+			placeholder-black
+			outline-black/50
+			dark:bg-transparent
+			dark:placeholder-white
+			dark:outline-white/50
 			sm:max-w-xs;
 		max-width: 92vw;
 	}
 
 	button {
 		@apply hover:ring-5
+			bg-lightrix-500
+			hover:shadow-lightrix-500/50
+			dark:hover:ring-lightrix-800
+			hover:ring-lightrix-400
+			focus:ring-lightrix-400
 			mt-6
 			select-none
 			rounded-xl
-			bg-white
 			py-3
 			px-6
-			text-black
+			text-white
 			outline-white
 			hover:shadow-xl
-			hover:shadow-white/50
-			hover:ring-white
+			dark:outline-black
 			sm:ml-4
 			sm:mt-0
 			sm:h-auto
@@ -74,24 +89,26 @@
 
 	.input-group-item {
 		@apply relative;
+
 		input[type="email"] {
 			padding-left: 3.3rem;
 		}
 
 		.at {
-			@apply absolute top-1/2 h-7 w-7
-			-translate-y-1/2
-			transform
-			cursor-pointer
-			text-center
-			font-medium
-			text-white;
+			@apply bg-lightrix-500
+				absolute top-1/2 h-7
+				w-7
+				-translate-y-1/2
+				transform
+				cursor-pointer
+				text-center
+				font-medium
+				text-white;
+
 			font-size: 26px;
 			line-height: 1.3rem;
 			margin-left: calc(3.3rem / 4);
 			z-index: 10;
-
-			background: white;
 
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;

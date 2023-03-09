@@ -6,6 +6,7 @@ module.exports = {
 		"./public/**/*.html",
 		"./src/**/*.{astro,js,jsx,ts,tsx,vue,svelte}",
 	],
+	dark: "media",
 	theme: {
 		container: {
 			center: true,
@@ -27,7 +28,18 @@ module.exports = {
 				},
 			},
 			colors: {
-				"lightrix": "#FF2323",
+				"lightrix": {
+					"50": "#fff1f1",
+					"100": "#ffdfdf",
+					"200": "#ffc5c5",
+					"300": "#ff9d9d",
+					"400": "#ff6464",
+					"500": "#ff2323",
+					"600": "#ed1515",
+					"700": "#c80d0d",
+					"800": "#a50f0f",
+					"900": "#881414",
+				},
 			},
 			ringWidth: {
 				"5": "5px",

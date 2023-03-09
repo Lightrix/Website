@@ -8,14 +8,15 @@ body {
 }
 
 body {
-	@apply bg-lightrix
-		text-lightrix
+	@apply bg-lightrix-500
+		text-lightrix-500
 		flex
 		flex-grow
 		flex-col
 		text-white
 		antialiased
 		sm:subpixel-antialiased;
+
 	font-variant-numeric: tabular-nums;
 	font-variant-ligatures: no-common-ligatures;
 }
@@ -23,8 +24,8 @@ body {
 *::selection,
 ::selection {
 	text-shadow: none;
-	@apply bg-white
-		text-lightrix;
+	@apply text-lightrix-500
+		bg-white;
 }
 
 img {
