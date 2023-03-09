@@ -24,8 +24,15 @@ body {
 *::selection,
 ::selection {
 	text-shadow: none;
-	@apply text-lightrix-500
-		bg-white;
+	@apply bg-lightrix-500
+		text-white;
+}
+
+@media (prefers-color-scheme: dark) {
+	*::selection,
+	::selection {
+		@apply text-lightrix-500 bg-white;
+	}
 }
 
 img {
