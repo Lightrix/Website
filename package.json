@@ -17,7 +17,7 @@
 	},
 	"devDependencies": {
 		"@astrojs/prefetch": "0.2.0",
-		"@astrojs/sitemap": "1.2.0",
+		"@astrojs/sitemap": "1.2.1",
 		"@lightrix/config": "0.0.7",
 		"@swup/body-class-plugin": "2.0.1",
 		"@swup/fade-theme": "1.0.5",
