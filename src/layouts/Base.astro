@@ -62,7 +62,7 @@ const links = (hrefs = []) =>
 			@import "../styles/global.css";
 		</style>
 
-		<slot name="stylesheets" />
+		<slot name="styles" />
 
 		<Fragment set:html={links(fonts.map((font: any) => font.href))} />
 
