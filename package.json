@@ -18,6 +18,7 @@
 	"devDependencies": {
 		"@astrojs/prefetch": "0.2.1",
 		"@astrojs/sitemap": "1.2.1",
+<<<<<<< HEAD
 		"@lightrix/config": "0.0.7",
 		"@swup/body-class-plugin": "2.0.1",
 		"@swup/fade-theme": "1.0.5",
@@ -25,6 +26,9 @@
 		"@swup/preload-plugin": "2.1.0",
 		"@swup/scroll-plugin": "2.0.2",
 		"@swup/slide-theme": "1.0.5",
+=======
+		"@lightrix/config": "0.0.8",
+>>>>>>> upstream/main
 		"@tailwindcss/aspect-ratio": "0.4.2",
 		"@tailwindcss/forms": "0.5.3",
 		"@tailwindcss/typography": "0.5.9",
