@@ -1,0 +1,58 @@
+---
+import Base from "@layouts/Base.astro";
+
+import "@styles/components/article.css";
+
+export const getStaticPaths = async () =>
+	[
+		"terms-of-service",
+		"gdpr",
+		"privacy-policy",
+		"personal-data-protection-policy",
+	].map((slug) => ({
+		params: { slug },
+	}));
+
+const slug =
+	typeof Astro.params["slug"] === "string" ? Astro.params["slug"] : "";
+
+const file = (await Astro.glob("./../content/en/*.md")).filter(
+	(page: { file: string | string[] }) =>
+		page.file.indexOf(slug) > -1 ||
+		(slug == "gdpr" &&
+			page.file.indexOf("personal-data-protection-policy") > -1)
+);
+
+let content: string,
+	title = "";
+
+if (typeof file[0] !== "undefined") {
+	content = file[0].compiledContent();
+	title = file[0].frontmatter["title"];
+} else {
+	content = "Not found.";
+	title = "404.";
+}
+---
+
+<Base
+	fonts={[
+		{ href: "/fonts/500.css" },
+		{ href: "/fonts/600.css" },
+		{ href: "/fonts/700.css" },
+		{ href: "/fonts/800.css" },
+		{ href: "/fonts/900.css" },
+	]}
+	title={title}>
+	<div class="flex flex-col">
+		<main class="flex grow justify-center">
+			<div class="flex grow self-center">
+				<div class="container sm:pb-36">
+					<article class="article">
+						<Fragment set:html={content} />
+					</article>
+				</div>
+			</div>
+		</main>
+	</div>
+</Base>
