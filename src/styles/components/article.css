@@ -1,8 +1,15 @@
 .article {
-	@apply prose
+	@apply dark:prose-lightrix prose
 		mx-auto
+		rounded-2xl
+		bg-white
+		outline
+		outline-8
+		outline-white
 		dark:prose-invert
-		prose-h1:font-black;
+		prose-h1:font-black
+		dark:bg-transparent
+		dark:outline-none;
 
 	.data-footnote-backref {
 		@apply font-sans
@@ -11,31 +18,43 @@
 
 	a,
 	.underline {
-		@apply decoration-lightrix-600;
+		@apply decoration-lightrix-800;
 
 		text-underline-position: under;
 		--text-shadow-color: #ff2323;
-		text-shadow: -1px 1px var(--text-shadow-color),
-			-1px 2px var(--text-shadow-color), -2px 1px var(--text-shadow-color),
-			-2px 2px var(--text-shadow-color), -3px 1px var(--text-shadow-color),
-			-3px 2px var(--text-shadow-color), 0 1px var(--text-shadow-color),
-			0 2px var(--text-shadow-color), 1px 1px var(--text-shadow-color),
-			1px 2px var(--text-shadow-color), 2px 1px var(--text-shadow-color),
-			2px 2px var(--text-shadow-color), 3px 1px var(--text-shadow-color),
-			3px 2px var(--text-shadow-color);
+	}
+
+	@media (prefers-color-scheme: dark) {
+		a,
+		.underline {
+			text-shadow: -1px 1px var(--text-shadow-color),
+				-1px 2px var(--text-shadow-color),
+				-2px 1px var(--text-shadow-color),
+				-2px 2px var(--text-shadow-color),
+				-3px 1px var(--text-shadow-color),
+				-3px 2px var(--text-shadow-color),
+				0 1px var(--text-shadow-color), 0 2px var(--text-shadow-color),
+				1px 1px var(--text-shadow-color),
+				1px 2px var(--text-shadow-color),
+				2px 1px var(--text-shadow-color),
+				2px 2px var(--text-shadow-color),
+				3px 1px var(--text-shadow-color),
+				3px 2px var(--text-shadow-color);
+		}
 	}
 
 	a {
 		@apply ease-apple
-			decoration-lightrix-600
-			hover:text-lightrix-600
+			decoration-lightrix-800
+			hover:text-lightrix-900
 			focus-visible:outline-lightrix-500
 			outline-none
 			outline-offset-4
 			transition-all
 			duration-150
 			focus-visible:decoration-transparent
-			focus-visible:outline-4;
+			focus-visible:outline-4
+			dark:focus-visible:outline-white;
 	}
 
 	ul + h1 {
