@@ -48,9 +48,11 @@ if (typeof file[0] !== "undefined") {
 		<main class="flex grow justify-center">
 			<div class="flex grow self-center">
 				<div class="container sm:pb-36">
-					<article class="article">
-						<Fragment set:html={content} />
-					</article>
+					<div class="bg-white">
+						<article class="article">
+							<Fragment set:html={content} />
+						</article>
+					</div>
 				</div>
 			</div>
 		</main>

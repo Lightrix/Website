@@ -1,5 +1,6 @@
 .article {
-	@apply dark:prose-lightrix prose
+	@apply prose-lightrix
+		prose 
 		mx-auto
 		rounded-2xl
 		bg-white
