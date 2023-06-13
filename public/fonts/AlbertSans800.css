@@ -1,0 +1,13 @@
+@font-face {
+	font-family: "Albert Sans";
+	font-style: normal;
+	font-weight: 800;
+	src: url("/fonts/albert-sans-v1-latin-800.eot");
+	src: local(""),
+		url("/fonts/albert-sans-v1-latin-800.eot?#iefix")
+			format("embedded-opentype"),
+		url("/fonts/albert-sans-v1-latin-800.woff2") format("woff2"),
+		url("/fonts/albert-sans-v1-latin-800.woff") format("woff"),
+		url("/fonts/albert-sans-v1-latin-800.ttf") format("truetype"),
+		url("/fonts/albert-sans-v1-latin-800.svg#AlbertSans") format("svg");
+}
