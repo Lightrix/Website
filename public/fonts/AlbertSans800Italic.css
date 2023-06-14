@@ -2,13 +2,13 @@
 	font-family: "Albert Sans";
 	font-style: italic;
 	font-weight: 800;
-	src: url("/fonts/albert-sans-v1-latin-800italic.eot");
+	src: url("/fonts/AlbertSans800Italic.eot");
 	src: local(""),
-		url("/fonts/albert-sans-v1-latin-800italic.eot?#iefix")
+		url("/fonts/AlbertSans800Italic.eot?#iefix")
 			format("embedded-opentype"),
-		url("/fonts/albert-sans-v1-latin-800italic.woff2") format("woff2"),
-		url("/fonts/albert-sans-v1-latin-800italic.woff") format("woff"),
-		url("/fonts/albert-sans-v1-latin-800italic.ttf") format("truetype"),
-		url("/fonts/albert-sans-v1-latin-800italic.svg#AlbertSans")
+		url("/fonts/AlbertSans800Italic.woff2") format("woff2"),
+		url("/fonts/AlbertSans800Italic.woff") format("woff"),
+		url("/fonts/AlbertSans800Italic.ttf") format("truetype"),
+		url("/fonts/AlbertSans800Italic.svg#AlbertSans")
 			format("svg");
 }
