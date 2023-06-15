@@ -4,7 +4,8 @@ html {
 
 html,
 body {
-	height: 100%;
+	@apply h-full
+		w-full;
 }
 
 body {
@@ -13,11 +14,11 @@ body {
 		flex
 		flex-grow
 		flex-col
+		tabular-nums
 		text-white
 		antialiased
 		sm:subpixel-antialiased;
 
-	font-variant-numeric: tabular-nums;
 	font-variant-ligatures: no-common-ligatures;
 }
 
@@ -31,14 +32,16 @@ body {
 @media (prefers-color-scheme: dark) {
 	*::selection,
 	::selection {
-		@apply text-lightrix-500 bg-white;
+		@apply text-lightrix-500
+		bg-white;
 	}
 }
 
 img {
 	@apply inline-block
 		select-none
-		align-top outline-none;
+		align-top
+		outline-none;
 }
 
 @media (min-width: 768px) {

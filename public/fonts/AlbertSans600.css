@@ -4,8 +4,7 @@
 	font-weight: 600;
 	src: url("/fonts/AlbertSans600.eot");
 	src: local(""),
-		url("/fonts/AlbertSans600.eot?#iefix")
-			format("embedded-opentype"),
+		url("/fonts/AlbertSans600.eot?#iefix") format("embedded-opentype"),
 		url("/fonts/AlbertSans600.woff2") format("woff2"),
 		url("/fonts/AlbertSans600.woff") format("woff"),
 		url("/fonts/AlbertSans600.ttf") format("truetype"),

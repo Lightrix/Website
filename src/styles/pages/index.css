@@ -1,11 +1,11 @@
 .form {
 	@apply flex-grow
-		rounded-2xl
 		bg-white
 		py-36
 		text-black
 		dark:bg-black/80
 		dark:text-white
+		sm:rounded-2xl
 		sm:px-20;
 
 	h1 {
