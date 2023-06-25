@@ -1,10 +1,6 @@
 .form {
 	@apply flex-grow
-		bg-white
 		py-36
-		text-black
-		dark:bg-black/80
-		dark:text-white
 		sm:rounded-2xl
 		sm:px-20;
 
@@ -31,12 +27,13 @@
 	input,
 	button {
 		@apply ease-apple
+			hover:ring-5
 			focus:ring-5
-			hover:outline-lightrix-600
-			focus:shadow-lightrix-500/50
-			focus:outline-lightrix-600
-			focus:ring-lightrix-500
-			dark:focus:ring-lightrix-800
+			hover:ring-lightrix-800
+			hover:outline-lightrix-900
+			focus:outline-lightrix-900
+			focus:ring-lightrix-800
+			outline-lightrix-700
 			block
 			w-full
 			border-none
@@ -54,14 +51,10 @@
 	input {
 		@apply w-96
 			rounded-xl
-			bg-white
+			bg-transparent
 			px-4
 			py-3
-			placeholder-black
-			outline-black/50
-			dark:bg-transparent
-			dark:placeholder-white
-			dark:outline-white/50
+			placeholder-white
 			sm:max-w-xs;
 		max-width: 92vw;
 	}
@@ -70,18 +63,15 @@
 		@apply hover:ring-5
 			bg-lightrix-500
 			hover:shadow-lightrix-500/50
-			dark:hover:ring-lightrix-800
-			hover:ring-lightrix-400
-			focus:ring-lightrix-400
+			hover:ring-lightrix-800
+			active:bg-lightrix-600
 			mt-6
 			select-none
 			rounded-xl
 			px-6
 			py-3
 			text-white
-			outline-white
 			hover:shadow-xl
-			dark:outline-black
 			sm:ml-4
 			sm:mt-0
 			sm:h-auto
@@ -96,12 +86,12 @@
 		}
 
 		.at {
-			@apply bg-lightrix-500
-				absolute top-1/2 h-7
-				w-7
+			@apply absolute
+				top-1/2 h-7 w-7
 				-translate-y-1/2
 				transform
 				cursor-pointer
+				bg-white
 				text-center
 				font-medium
 				text-white;

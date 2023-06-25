@@ -7,10 +7,7 @@
 		outline
 		outline-8
 		outline-white
-		dark:prose-invert
-		prose-h1:font-black
-		dark:bg-transparent
-		dark:outline-none;
+		prose-h1:font-black;
 
 	.data-footnote-backref {
 		@apply font-sans
@@ -54,8 +51,7 @@
 			transition-all
 			duration-150
 			focus-visible:decoration-transparent
-			focus-visible:outline-4
-			dark:focus-visible:outline-white;
+			focus-visible:outline-4;
 	}
 
 	ul + h1 {
