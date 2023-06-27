@@ -87,7 +87,9 @@
 
 		.at {
 			@apply absolute
-				top-1/2 h-7 w-7
+				top-1/2
+				h-7
+				w-7
 				-translate-y-1/2
 				transform
 				cursor-pointer
