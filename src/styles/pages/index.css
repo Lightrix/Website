@@ -61,10 +61,10 @@
 
 	button {
 		@apply hover:ring-5
-			bg-lightrix-500
+			bg-lightrix-600
 			hover:shadow-lightrix-500/50
 			hover:ring-lightrix-800
-			active:bg-lightrix-600
+			active:bg-lightrix-500
 			mt-6
 			select-none
 			rounded-xl
