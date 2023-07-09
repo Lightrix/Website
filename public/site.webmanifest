@@ -1,7 +1,8 @@
 {
-	"name": "Lightrix",
-	"short_name": "Lightrix",
+	"background_color": "#ff2323",
+	"categories": ["business", "productivity"],
 	"description": "Encouraging Open-Source",
+	"display": "standalone",
 	"icons": [
 		{
 			"sizes": "36x36",
@@ -39,10 +40,9 @@
 			"type": "image/png"
 		}
 	],
-	"theme_color": "#ff2323",
-	"background_color": "#ff2323",
-	"display": "standalone",
+	"name": "Lightrix",
+	"orientation": "landscape",
+	"short_name": "Lightrix",
 	"start_url": "/",
-	"categories": ["business", "productivity"],
-	"orientation": "landscape"
+	"theme_color": "#ff2323"
 }

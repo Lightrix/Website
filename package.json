@@ -1,16 +1,16 @@
 {
 	"name": "lightrix-web",
 	"version": "0.0.1",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/Lightrix/lightrix.help.git"
-	},
+	"private": true,
 	"homepage": "https://github.com/Lightrix/lightrix.help#readme",
 	"bugs": {
 		"url": "https://github.com/Lightrix/lightrix.help/issues"
 	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Lightrix/lightrix.help.git"
+	},
 	"license": "MIT",
-	"private": true,
 	"scripts": {
 		"build": "astro check && astro build",
 		"start": "astro dev"
