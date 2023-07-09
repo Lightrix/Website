@@ -38,9 +38,7 @@ module.exports = {
 						"--tw-prose-bullets": theme("colors.lightrix[300]"),
 						"--tw-prose-hr": theme("colors.lightrix[200]"),
 						"--tw-prose-quotes": theme("colors.lightrix[900]"),
-						"--tw-prose-quote-borders": theme(
-							"colors.lightrix[200]"
-						),
+						"--tw-prose-quote-borders": theme("colors.lightrix[200]"),
 						"--tw-prose-captions": theme("colors.lightrix[500]"),
 						"--tw-prose-code": theme("colors.lightrix[900]"),
 						"--tw-prose-pre-code": theme("colors.lightrix[200]"),
@@ -52,52 +50,36 @@ module.exports = {
 						"--tw-prose-invert-lead": theme("colors.lightrix[400]"),
 						"--tw-prose-invert-links": theme("colors.white"),
 						"--tw-prose-invert-bold": theme("colors.white"),
-						"--tw-prose-invert-counters": theme(
-							"colors.lightrix[400]"
-						),
-						"--tw-prose-invert-bullets": theme(
-							"colors.lightrix[600]"
-						),
+						"--tw-prose-invert-counters": theme("colors.lightrix[400]"),
+						"--tw-prose-invert-bullets": theme("colors.lightrix[600]"),
 						"--tw-prose-invert-hr": theme("colors.lightrix[700]"),
-						"--tw-prose-invert-quotes": theme(
-							"colors.lightrix[100]"
-						),
-						"--tw-prose-invert-quote-borders": theme(
-							"colors.lightrix[700]"
-						),
-						"--tw-prose-invert-captions": theme(
-							"colors.lightrix[400]"
-						),
+						"--tw-prose-invert-quotes": theme("colors.lightrix[100]"),
+						"--tw-prose-invert-quote-borders": theme("colors.lightrix[700]"),
+						"--tw-prose-invert-captions": theme("colors.lightrix[400]"),
 						"--tw-prose-invert-code": theme("colors.white"),
-						"--tw-prose-invert-pre-code": theme(
-							"colors.lightrix[300]"
-						),
+						"--tw-prose-invert-pre-code": theme("colors.lightrix[300]"),
 						"--tw-prose-invert-pre-bg": "rgb(0 0 0 / 50%)",
-						"--tw-prose-invert-th-borders": theme(
-							"colors.lightrix[600]"
-						),
-						"--tw-prose-invert-td-borders": theme(
-							"colors.lightrix[700]"
-						),
+						"--tw-prose-invert-th-borders": theme("colors.lightrix[600]"),
+						"--tw-prose-invert-td-borders": theme("colors.lightrix[700]"),
 					},
 				},
 			}),
 			colors: {
-				"lightrix": {
-					"50": "#fff1f1",
-					"100": "#ffdfdf",
-					"200": "#ffc5c5",
-					"300": "#ff9d9d",
-					"400": "#ff6464",
-					"500": "#ff2323",
-					"600": "#ed1515",
-					"700": "#c80d0d",
-					"800": "#a50f0f",
-					"900": "#881414",
+				lightrix: {
+					50: "#fff1f1",
+					100: "#ffdfdf",
+					200: "#ffc5c5",
+					300: "#ff9d9d",
+					400: "#ff6464",
+					500: "#ff2323",
+					600: "#ed1515",
+					700: "#c80d0d",
+					800: "#a50f0f",
+					900: "#881414",
 				},
 			},
 			ringWidth: {
-				"5": "5px",
+				5: "5px",
 			},
 		},
 	},
