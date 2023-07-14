@@ -47,9 +47,5 @@
 	"orientation": "landscape",
 	"short_name": "Lightrix",
 	"start_url": "/",
-<<<<<<< HEAD
 	"theme_color": "#ff2323"
-=======
-	"theme_color": "// TODO Use the same theme color from template.html"
->>>>>>> upstream/main
 }
