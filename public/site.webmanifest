@@ -1,6 +1,9 @@
 {
 	"background_color": "#ff2323",
-	"categories": ["business", "productivity"],
+	"categories": [
+		"business",
+		"productivity"
+	],
 	"description": "Encouraging Open-Source",
 	"display": "standalone",
 	"icons": [
