@@ -1,9 +1,4 @@
 .form {
-	@apply flex-grow
-		py-36
-		sm:rounded-2xl
-		sm:px-20;
-
 	h1 {
 		@apply mb-8
 			text-3xl
