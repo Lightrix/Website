@@ -2,7 +2,7 @@
 import Swup from "swup";
 
 // @ts-ignore
-import SwupBodyClassPlugin from "@swup/body-class-plugin";
+// import SwupBodyClassPlugin from "@swup/body-class-plugin";
 // @ts-ignore
 import SwupPreloadPlugin from "@swup/preload-plugin";
 // @ts-ignore
@@ -16,6 +16,6 @@ new Swup({
 		new SwupHeadPlugin(),
 		new SwupPreloadPlugin(),
 		new SwupScrollPlugin(),
-		new SwupBodyClassPlugin(),
+		// new SwupBodyClassPlugin(),
 	],
 });
