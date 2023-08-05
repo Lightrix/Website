@@ -74,7 +74,7 @@ const links = (hrefs = []) =>
 		<Fragment set:html={links(fonts.map((font: any) => font.href))} />
 
 		<script>
-			import "@scripts/SWUP";
+			import "@Script/SWUP";
 		</script>
 
 		<slot name="scripts" />
@@ -172,7 +172,7 @@ const links = (hrefs = []) =>
 				<Footer />
 			</div>
 			<script>
-				import "@scripts/FIREBASE";
+				import "@Script/FIREBASE";
 			</script>
 		</div>
 		<a
