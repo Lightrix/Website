@@ -1,7 +1,7 @@
 ---
-import Footer from "@components/Footer.astro";
-import Header from "@components/Header.astro";
-import "@styles/Base.css";
+import Footer from "@Component/Footer.astro";
+import Header from "@Component/Header.astro";
+import "@Style/Base.css";
 
 const {
 	fonts = [],
@@ -66,7 +66,7 @@ const links = (hrefs = []) =>
 		/>
 
 		<style is:global>
-			@import "@styles/Global.css";
+			@import "@Style/Global.css";
 		</style>
 
 		<slot name="styles" />

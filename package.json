@@ -18,7 +18,7 @@
 	"devDependencies": {
 		"@astrojs/prefetch": "0.3.0",
 		"@astrojs/sitemap": "2.0.1",
-		"@lightrix/configuration": "0.0.11",
+		"@lightrix/configuration": "0.0.1",
 		"@swup/body-class-plugin": "3.1.1",
 		"@swup/fade-theme": "2.0.0",
 		"@swup/head-plugin": "2.1.1",
