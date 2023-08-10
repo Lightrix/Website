@@ -3,8 +3,8 @@ const defaultTheme = require("tailwindcss/defaultTheme");
 /** @type {import('tailwindcss').Config} */
 module.exports = {
 	content: [
-		"./public/**/*.html",
-		"./src/**/*.{astro,js,jsx,ts,tsx,vue,svelte}",
+		"./Public/**/*.html",
+		"./Source/**/*.{astro,js,jsx,ts,tsx,vue,svelte}",
 	],
 	dark: "media",
 	theme: {
