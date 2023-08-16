@@ -3,8 +3,7 @@
 	font-style: italic;
 	font-weight: 700;
 	src: url("/fonts/AlbertSans700Italic.eot");
-	src:
-		local(""),
+	src: local(""),
 		url("/fonts/AlbertSans700Italic.eot?#iefix") format("embedded-opentype"),
 		url("/fonts/AlbertSans700Italic.woff2") format("woff2"),
 		url("/fonts/AlbertSans700Italic.woff") format("woff"),
