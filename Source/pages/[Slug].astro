@@ -8,28 +8,28 @@ export const getStaticPaths = async () =>
 		"gdpr",
 		"privacy-policy",
 		"personal-data-protection-policy",
-	].map((slug) => ({
-		params: { slug },
+	].map((Slug) => ({
+		params: { Slug },
 	}));
 
-const slug =
-	typeof Astro.params["slug"] === "string" ? Astro.params["slug"] : "";
+const Slug =
+	typeof Astro.params["Slug"] === "string" ? Astro.params["Slug"] : "";
 
-const file = (await Astro.glob("./../content/en/*.md")).filter(
+const File = (await Astro.glob("./../content/en/*.md")).filter(
 	(page: { file: string | string[] }) =>
-		page.file.indexOf(slug) > -1 ||
-		(slug == "gdpr" &&
+		page.file.indexOf(Slug) > -1 ||
+		(Slug == "gdpr" &&
 			page.file.indexOf("personal-data-protection-policy") > -1)
 );
 
-let content: string,
+let Content: string,
 	Title = "";
 
-if (typeof file[0] !== "undefined") {
-	content = file[0].compiledContent();
-	Title = file[0].frontmatter["title"];
+if (typeof File[0] !== "undefined") {
+	Content = File[0].compiledContent();
+	Title = File[0].frontmatter["title"];
 } else {
-	content = "Not found.";
+	Content = "Not found.";
 	Title = "404.";
 }
 ---
@@ -49,7 +49,7 @@ if (typeof file[0] !== "undefined") {
 				<div class="container sm:pb-36">
 					<div class="bg-white">
 						<article class="article">
-							<Fragment set:html={content} />
+							<Fragment set:html={Content} />
 						</article>
 					</div>
 				</div>
