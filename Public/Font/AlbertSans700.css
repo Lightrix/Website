@@ -2,11 +2,11 @@
 	font-family: "Albert Sans";
 	font-style: normal;
 	font-weight: 700;
-	src: url("/fonts/AlbertSans700.eot");
+	src: url("/Font/AlbertSans700.eot");
 	src: local(""),
-		url("/fonts/AlbertSans700.eot?#iefix") format("embedded-opentype"),
-		url("/fonts/AlbertSans700.woff2") format("woff2"),
-		url("/fonts/AlbertSans700.woff") format("woff"),
-		url("/fonts/AlbertSans700.ttf") format("truetype"),
-		url("/fonts/AlbertSans700.svg#AlbertSans") format("svg");
+		url("/Font/AlbertSans700.eot?#iefix") format("embedded-opentype"),
+		url("/Font/AlbertSans700.woff2") format("woff2"),
+		url("/Font/AlbertSans700.woff") format("woff"),
+		url("/Font/AlbertSans700.ttf") format("truetype"),
+		url("/Font/AlbertSans700.svg#AlbertSans") format("svg");
 }
