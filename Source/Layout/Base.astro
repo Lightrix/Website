@@ -9,16 +9,14 @@ const {
 	description = "Encouraging Open-Source",
 } = Astro.props;
 
-const links = (hrefs = []) =>
-	hrefs
-		.map(
-			(href) => `<link
+const Link = (Link = []) =>
+	Link.map(
+		(Link) => `<link
 			rel="stylesheet"
 			type="text/css"
-			href="${href}"
+			href="${Link}"
 		/>`
-		)
-		.join("\n");
+	).join("\n");
 ---
 
 <!DOCTYPE html>
@@ -71,7 +69,7 @@ const links = (hrefs = []) =>
 
 		<slot name="styles" />
 
-		<Fragment set:html={links(Font.map((font: any) => font.href))} />
+		<Fragment set:html={Link(Font.map((Font: any) => Font))} />
 
 		<script>
 			import "@Script/swup";
