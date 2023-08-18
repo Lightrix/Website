@@ -4,8 +4,8 @@ import Header from "@Component/Header.astro";
 import "@Style/Base.css";
 
 const {
-	fonts = [],
-	title = "Lightrix",
+	Font = [],
+	Title = "Lightrix",
 	description = "Encouraging Open-Source",
 } = Astro.props;
 
@@ -30,7 +30,7 @@ const links = (hrefs = []) =>
 		</script>
 
 		<!-- Meta -->
-		<title>{title}</title>
+		<title>{Title}</title>
 		<meta charset="utf-8" />
 		<meta name="description" content={description} />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -71,7 +71,7 @@ const links = (hrefs = []) =>
 
 		<slot name="styles" />
 
-		<Fragment set:html={links(fonts.map((font: any) => font.href))} />
+		<Fragment set:html={links(Font.map((font: any) => font.href))} />
 
 		<script>
 			import "@Script/swup";

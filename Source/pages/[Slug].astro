@@ -23,26 +23,26 @@ const file = (await Astro.glob("./../content/en/*.md")).filter(
 );
 
 let content: string,
-	title = "";
+	Title = "";
 
 if (typeof file[0] !== "undefined") {
 	content = file[0].compiledContent();
-	title = file[0].frontmatter["title"];
+	Title = file[0].frontmatter["title"];
 } else {
 	content = "Not found.";
-	title = "404.";
+	Title = "404.";
 }
 ---
 
 <Base
-	fonts={[
+	Font={[
 		{ href: "/fonts/AlbertSans500.css?rev=1.1" },
 		{ href: "/fonts/AlbertSans600.css?rev=1.1" },
 		{ href: "/fonts/AlbertSans700.css?rev=1.1" },
 		{ href: "/fonts/AlbertSans800.css?rev=1.1" },
 		{ href: "/fonts/AlbertSans900.css?rev=1.1" },
 	]}
-	title={title}>
+	{Title}>
 	<div class="flex flex-col">
 		<main class="flex grow justify-center">
 			<div class="flex grow self-center">
