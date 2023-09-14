@@ -156,21 +156,19 @@ const Link = (Link: string[] = []) =>
 			content="/Favicon/mstile-144x144.png"
 		/>
 	</head>
-	<body>
-		<div id="lightrix-web" class="flex grow flex-col">
-			<div id="header" class="grow">
-				<Header />
-			</div>
-			<div id="main" class="grow">
-				<slot />
-			</div>
-			<div id="footer" class="shrink">
-				<Footer />
-			</div>
-			<script>
-				import "@Script/Firebase";
-			</script>
+	<body class="flex grow flex-col">
+		<div id="header" class="grow">
+			<Header />
 		</div>
+		<div id="main" class="grow">
+			<slot />
+		</div>
+		<div id="footer" class="shrink">
+			<Footer />
+		</div>
+		<script>
+			import "@Script/Firebase";
+		</script>
 		<a
 			class="absolute left-0 top-0 hidden"
 			rel="me"
