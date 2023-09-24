@@ -23,11 +23,13 @@ const Link = (Link: string[] = []) =>
 			href="${Link}"
 		/>`
 	).join("\n");
+
+const { Head } = await import("astro-capo");
 ---
 
 <!doctype html>
 <html lang="en" class="no-js" dir="ltr">
-	<head>
+	<Head>
 		<script>
 			document.documentElement.classList.remove("no-js");
 			document.documentElement.classList.add("js");
@@ -155,7 +157,7 @@ const Link = (Link: string[] = []) =>
 			name="msapplication-TileImage"
 			content="/Favicon/mstile-144x144.png"
 		/>
-	</head>
+	</Head>
 	<body class="flex grow flex-col">
 		<div id="header" class="grow">
 			<Header />
