@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 const defaultTheme = require("tailwindcss/defaultTheme");
 
+=======
+>>>>>>> upstream/main
 export default {
 	content: [
 		"./Public/**/*.html",
