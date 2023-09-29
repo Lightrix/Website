@@ -45,7 +45,7 @@
 		"cssnano-preset-advanced": "6.0.1",
 		"dotenv": "16.3.1",
 		"firebase": "10.4.0",
-		"postcss": "8.4.30",
+		"postcss": "8.4.31",
 		"postcss-combine-duplicated-selectors": "10.0.3",
 		"postcss-combine-media-query": "1.0.1",
 		"postcss-import": "15.1.0",
@@ -54,7 +54,7 @@
 		"swup": "4.4.2",
 		"tailwindcss": "3.3.3",
 		"typescript": "5.2.2",
-		"typescript-esbuild": "0.1.16",
+		"typescript-esbuild": "0.2.1",
 		"zod": "3.22.2"
 	},
 	"publishConfig": {
