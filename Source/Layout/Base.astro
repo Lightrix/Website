@@ -15,7 +15,6 @@ interface Props {
 	Description?: string;
 }
 
-<<<<<<< HEAD
 const Link = (Link: string[] = []) =>
 	Link.map(
 		(Link) => `<link
@@ -25,12 +24,7 @@ const Link = (Link: string[] = []) =>
 		/>`
 	).join("\n");
 
-const { Head } = await import("astro-capo");
-=======
-// export const { Head } = await import("astro-capo");
-
 import { Head } from "astro-capo";
->>>>>>> upstream/main
 ---
 
 <!doctype html>
@@ -84,7 +78,6 @@ import { Head } from "astro-capo";
 		<slot name="scripts" />
 
 		<!-- Favicon -->
-<<<<<<< HEAD
 		<link
 			rel="apple-touch-icon"
 			sizes="114x114"
@@ -168,18 +161,6 @@ import { Head } from "astro-capo";
 	<body class="flex grow flex-col">
 		<div id="header" class="grow">
 			<Header />
-=======
-	</Head>
-	<body>
-		<!-- TODO Generate the ID here -->
-		<div id="">
-			<div class="grow">
-				<slot />
-			</div>
-			<script>
-				import "@Script/Firebase";
-			</script>
->>>>>>> upstream/main
 		</div>
 		<div id="main" class="grow">
 			<slot />
