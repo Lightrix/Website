@@ -2,13 +2,13 @@
 	"name": "@website/lightrix_help",
 	"version": "0.0.1",
 	"private": false,
-	"homepage": "https://github.com/Lightrix/Website#readme",
+	"homepage": "https://github.com/Playform/Website-Lightrix#readme",
 	"bugs": {
-		"url": "https://github.com/Lightrix/Website/issues"
+		"url": "https://github.com/Playform/Website-Lightrix/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Lightrix/Website.git"
+		"url": "git+https://github.com/Playform/Website-Lightrix.git"
 	},
 	"license": "MIT",
 	"author": {
