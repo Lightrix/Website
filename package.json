@@ -21,7 +21,7 @@
 		"start": "astro dev"
 	},
 	"devDependencies": {
-		"@astrojs/check": "0.4.0",
+		"@astrojs/check": "0.4.1",
 		"@astrojs/prefetch": "0.4.1",
 		"@astrojs/sitemap": "3.0.4",
 		"@swup/body-class-plugin": "3.1.2",
